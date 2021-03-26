@@ -28,6 +28,7 @@ namespace HelloWorld26
             Console.WriteLine("");
 
             // Padrão ISO 8601:
+
             // yyyy-MM-ddTHH:mm:ssZ // 'Z' No final indica que a data/hora está em Utc. 
 
             DateTime d4 = DateTime.Parse("2000-08-15 13:05:58"); // Convertendo um tipo 'string' para DateTime.
