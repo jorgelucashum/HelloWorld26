@@ -9,7 +9,7 @@ namespace HelloWorld26
         {
             DateTime d1 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Local); // Instancia a data com o padrão do tipo 'Local'.
             DateTime d2 = new DateTime(2000, 8, 15, 13, 5, 58, DateTimeKind.Utc); // Instancia a data com o padrão do tipo 'Utc'.
-            DateTime d3 = new DateTime(2000, 8, 15, 13, 5, 58); // Data sem especificação;
+            DateTime d3 = new DateTime(2000, 8, 15, 13, 5, 58); // Data sem especificação.
 
             Console.WriteLine("d1: " + d1);
             Console.WriteLine("d1 Kind: " + d1.Kind);
